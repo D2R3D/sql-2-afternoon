@@ -183,3 +183,30 @@ delete
 from practice_delete
 where value = 150
 
+
+
+create table users (
+  id serial primary key,
+  name varchar(50),
+  email varchar(75)
+)
+
+create table products (
+  id serial primary key,
+  name varchar(100),
+  price integer
+)
+
+create table orders (
+  id serial primary key,
+  product_id = foriegn key?? - not sure how its coded
+
+)
+
+insert into users 
+(name, email)
+values
+('Derek, '123@gmail.com'),
+('Me', '456@gmail.com),
+("You", "you@gmail.com")
+
